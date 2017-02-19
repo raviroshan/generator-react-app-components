@@ -1,17 +1,23 @@
 {
-  "name": "generator-react-app-components",
-  "version": "0.0.1",
-  "description": "React App Component [State & Stateless] generator including Actions & Reducers. Also it generates the SCSS files for each component.",
-  "bin": {
-    "generator-react-app-components": "bin/generator-react-app-components.js"
-  },
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ravi Roshan",
-  "license": "BSD",
-  "dependencies": {
-    "inquirer": "^3.0.1"
-  }
+	"name": "generator-react-app-components",
+	"version": "0.0.2",
+	"description": "React App Component [State & Stateless] generator including Actions & Reducers. Also it generates the SCSS files for each component.",
+	"bin": {
+		"generator-react-app-components": "bin/generator-react-app-components.js"
+	},
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ravi Roshan",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/raviroshan/generator-react-app-components"
+	},
+	"keywords" : ["React", "Redux", "Generator"],
+	"homepage": "www.raviroshan.info",
+	"license": "ISC",
+	"dependencies": {
+		"inquirer": "^3.0.1"
+	}
 }
