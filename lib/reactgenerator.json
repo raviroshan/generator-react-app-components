@@ -1,0 +1,35 @@
+{
+    "rootSourceFolder": "templates",
+	"rootDestFolder": "appNew/main",
+	"reactFileExtension": ".js",
+	"styleFileExtension": ".scss",
+    "action": {
+        "origin":"action.js",
+        "target":"src"
+    },
+    "reducer": {
+        "origin":"Reducer.js",
+        "target":"src",
+        "combinedReducer":""
+    },
+    "pages": {
+        "origin":"Pages.js",
+        "target":"src"
+    },
+    "componentStateFull": {
+        "origin":"ComponentStateFull.js",
+        "target":"src"
+    },
+    "componentStateLess": {
+        "origin":"ComponentStateLess.js",
+        "target":"src"
+	},
+	"style": {
+        "origin":"Component.scss",
+        "target":"assets/stylesheets"
+    },
+    "utils": {
+        "origin":"utils.js",
+        "target":"src"
+    }
+}

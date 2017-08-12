@@ -14,10 +14,17 @@
 		"type": "git",
 		"url": "https://github.com/raviroshan/generator-react-app-components"
 	},
-	"keywords" : ["React", "Redux", "Generator"],
+	"keywords": [
+		"React",
+		"Redux",
+		"Generator"
+	],
 	"homepage": "www.raviroshan.info",
 	"license": "ISC",
 	"dependencies": {
-		"inquirer": "^3.0.1"
+		"fs-extra": "^4.0.1",
+		"inquirer": "^3.0.1",
+		"minimist": "^1.2.0",
+		"object-getvalue": "^1.0.5"
 	}
 }
