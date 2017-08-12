@@ -10,7 +10,7 @@
     "reducer": {
         "origin":"Reducer.js",
         "target":"src/reducers",
-        "combinedReducer":""
+        "combinedReducer":"src/reducers/index"
     },
     "pages": {
         "origin":"Pages.js",
