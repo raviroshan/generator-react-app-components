@@ -4,25 +4,25 @@
 	"reactFileExtension": ".js",
 	"styleFileExtension": ".scss",
     "action": {
-        "origin":"action.js",
-        "target":"src"
+        "origin":"Action.js",
+        "target":"src/actions"
     },
     "reducer": {
         "origin":"Reducer.js",
-        "target":"src",
+        "target":"src/reducers",
         "combinedReducer":""
     },
     "pages": {
         "origin":"Pages.js",
-        "target":"src"
-    },
+        "target":"src/pages"
+	},
     "componentStateFull": {
         "origin":"ComponentStateFull.js",
-        "target":"src"
+        "target":"src/components"
     },
     "componentStateLess": {
         "origin":"ComponentStateLess.js",
-        "target":"src"
+        "target":"src/components"
 	},
 	"style": {
         "origin":"Component.scss",
