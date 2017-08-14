@@ -1,35 +1,41 @@
 {
-    "rootSourceFolder": "templates",
+	"globalParams": {
+		"version": "1.0.0",
+		"author": "Author_Name",
+		"emailId": "Author_Email",
+		"website": "Website_Address"
+	},
+	"rootSourceFolder": "templates",
 	"rootDestFolder": "appNew/main",
 	"reactFileExtension": ".js",
 	"styleFileExtension": ".scss",
-    "action": {
-        "origin":"Action.js",
-        "target":"src/actions"
-    },
-    "reducer": {
-        "origin":"Reducer.js",
-        "target":"src/reducers",
-        "combinedReducer":"src/reducers/index"
-    },
-    "pages": {
-        "origin":"Pages.js",
-        "target":"src/pages"
+	"action": {
+		"origin": "Action.js",
+		"target": "src/actions"
 	},
-    "componentStateFull": {
-        "origin":"ComponentStateFull.js",
-        "target":"src/components"
-    },
-    "componentStateLess": {
-        "origin":"ComponentStateLess.js",
-        "target":"src/components"
+	"reducer": {
+		"origin": "Reducer.js",
+		"target": "src/reducers",
+		"combinedReducer": "src/reducers/index"
+	},
+	"pages": {
+		"origin": "Pages.js",
+		"target": "src/pages"
+	},
+	"componentStateFull": {
+		"origin": "ComponentStateFull.js",
+		"target": "src/components"
+	},
+	"componentStateLess": {
+		"origin": "ComponentStateLess.js",
+		"target": "src/components"
 	},
 	"style": {
-        "origin":"Component.scss",
-        "target":"assets/stylesheets"
-    },
-    "utils": {
-        "origin":"utils.js",
-        "target":"src"
-    }
+		"origin": "Component.scss",
+		"target": "assets/stylesheets"
+	},
+	"utils": {
+		"origin": "utils.js",
+		"target": "src"
+	}
 }
