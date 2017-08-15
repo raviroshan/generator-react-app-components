@@ -6,7 +6,7 @@
 		"website": "Website_Address"
 	},
 	"rootSourceFolder": "templates",
-	"rootDestFolder": "appNew/main",
+	"rootDestFolder": "app",
 	"reactFileExtension": ".js",
 	"styleFileExtension": ".scss",
 	"action": {
@@ -33,9 +33,5 @@
 	"style": {
 		"origin": "Component.scss",
 		"target": "assets/stylesheets"
-	},
-	"utils": {
-		"origin": "utils.js",
-		"target": "src"
 	}
 }

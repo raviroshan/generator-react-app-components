@@ -1,9 +1,9 @@
 {
 	"name": "generator-react-app-components",
-	"version": "0.0.2",
+	"version": "1.0.6",
 	"description": "React App Component [State & Stateless] generator including Actions & Reducers. Also it generates the SCSS files for each component.",
 	"bin": {
-		"generator-react-app-components": "bin/generator-react-app-components.js"
+		"generator-react-app-components": "bin/cli.js"
 	},
 	"main": "lib/index.js",
 	"scripts": {
